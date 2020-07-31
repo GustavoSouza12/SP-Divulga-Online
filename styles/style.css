@@ -13,6 +13,7 @@
 }
 body{
     height: 100vh;
+   
 }
 body, nav{
     font-family: orange1;
@@ -51,37 +52,23 @@ nav{
 .carousel-item img{
     height: 400px !important;
 }
-.swiper-container {
-    margin: 100px 0;
-    
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-
-  }
 .building-background{
   position: absolute;
- height: 500px;
+ height: 100px;
  right: 0;
  top: 122px;
 }
 .building-background2{
   position: absolute;
-  height: 500px;
+  height: 100px;
   left: 0;
   top: 122px;
 }
 
 /*footer*/
 footer{
-    margin-top: 20px;
+   
     width: 100%;
     
     background-color: rgb(247, 198, 93);
@@ -91,6 +78,7 @@ footer{
     letter-spacing: 1px;
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
+    margin-top: auto;
   }
   
   footer{
@@ -110,27 +98,107 @@ footer{
       text-decoration:none;
   
   }
-
-  @media (min-width: 576px) {  }
+  
+  @media (max-width: 439px){
+    .building-background{
+      margin-top: 20px;
+      height: 150px;
+      top: 83%;
+      z-index: -1;
+    
+     }
+     .building-background2{
+      margin-top: 20px;
+      height: 150px;
+      top: 83%;
+      z-index: -1;
+      
+     }
+     .carousel-container{
+      margin-bottom: 160px;
+    }
+    
+  }
+  @media (min-width: 440px) and (max-width: 575px) {
+    .building-background{
+      margin-top: 20px;
+      height: 175px;
+      top: 79%;
+      z-index: -1;
+    
+     }
+     .building-background2{
+      margin-top: 20px;
+      height: 175px;
+      top: 79%;
+      z-index: -1;
+      
+      
+     }
+     .carousel-container{
+       margin-bottom: 200px;
+     }
+  }
+  @media (min-width: 576px) and (max-width: 767px) {  
   .swiper-container {
     margin: 00px 0;
     
     
   }
   .building-background{
-    visibility: hidden;
+    margin-top: 20px;
+    height: 300px;
+    top: 90%;
+    z-index: -1;
+  
+   }
+   .building-background2{
+    margin-top: 20px;
+    height: 300px;
+    top: 90%;
+    z-index: -1;
+    
+   }
+   .carousel-container{
+     margin-bottom: 442px;
+   }
+  
   }
  
 /*Medium devices */
   @media (min-width: 768px) {
     .building-background{
-      visibility: visible;
-    }
+      margin-top: 20px;
+      height: 350px;
+      top: 81%;
+      z-index: -1;
+    
+     }
+     .building-background2{
+      margin-top: 20px;
+      height: 350px;
+      top: 81%;
+      z-index: -1;
+      
+     }
+     .carousel-container{
+      margin-bottom: 410px;
+   }
     }
   
 /*Large devices*/ 
   @media (min-width: 992px) {
-   
+    .building-background{
+     margin-top: 20px;
+     height: 400px;
+     top: 76%;
+
+    }
+    .building-background2{
+      margin-top: 20px;
+      height: 400px;
+      top: 76%;
+    }
     }
   
   
@@ -143,5 +211,20 @@ footer{
     .card{
         margin-top: 0;
     }
-   
+    .building-background{
+      position: absolute;
+     height: 500px;
+     right: 0;
+     top: 245px ;
+    }
+    .building-background2{
+      position: absolute;
+      height: 500px;
+      left: 0;
+      top: 245px ;
+      
+    }
+    .carousel-container{
+      margin-bottom: 200px;
+   }
     }  
