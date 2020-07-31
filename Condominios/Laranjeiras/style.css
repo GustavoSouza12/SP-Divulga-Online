@@ -25,13 +25,13 @@ main h1{
     font-size: 56px;
 }
 h1 i{
-    color: rgb(255, 196, 0);
+    color: rgb(245, 149, 39);
    
 }
 nav{
     margin-top: 10px;
     border-radius: 50px;
-    background-color: rgb(247, 198, 93) !important;
+    background-color: rgb(245, 149, 39) !important;
 }
 .container{
     
@@ -52,13 +52,17 @@ nav{
     top: 50px;
     width: 197px;
     height: 3px;
-    background-color: rgb(247, 198, 93);
+    background-color: rgb(245, 149, 39);
 }
 .img-simple-card-destaque{
     height: 200px;
     width: 200px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 100px;
+}
+.title-icon-destaque{
+    height: 60px;
+    width: 60px;
 }
 .card-text{
     font-size: 30px;
@@ -67,6 +71,7 @@ nav{
     background-color: green !important;
     border: none !important;
 }
+
 
 
 /*footer*/
