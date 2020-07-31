@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family: 'orange1';
+    src: url('../fonts/orange_juice_2.0-webfont.woff2') format('woff2'),
+         url('../fonts/orange_juice_2.0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    height: 100vh;
+}
+body, nav{
+    font-family: orange1;
+    background-color: rgb(240, 239, 236) !important;
+    
+}
+main h2{
+    font-family: orange1;
+    font-size: 40px;
+}
+
+h2 i{
+    color: rgb(255, 196, 0);
+   
+}
+nav{
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: rgb(247, 198, 93) !important;
+}
+.container{
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.bg-main{
+    background-color: rgb(240, 239, 236);
+}
+.carousel-container{
+   max-width: 500px;
+    
+    margin: auto;
+   margin-bottom: 60px;
+}
+.carousel-item img{
+    height: 400px !important;
+}
+.swiper-container {
+    margin: 100px 0;
+    
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+  }
+
+
+/*footer*/
+footer{
+    margin-top: 20px;
+    width: 100%;
+    
+    background-color: rgb(247, 198, 93);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: orange1;
+    letter-spacing: 1px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+  }
+  
+  footer{
+    border-top: 2px solid #000000;
+  }
+  footer a:link{
+    text-decoration: none;
+    border-color: #000000;
+  }
+  a:visited {
+    color:#999999;
+    text-decoration:none;
+  }
+  
+   footer a:hover{
+      color:#000000;
+      text-decoration:none;
+  
+  }
+
+  @media (min-width: 576px) {  }
+  .swiper-container {
+    margin: 00px 0;
+    
+    
+  }
+/*Medium devices */
+  @media (min-width: 768px) {  }
+  
+/*Large devices*/ 
+  @media (min-width: 992px) {
+   
+    }
+  
+/*Extra large devices*/
+@media (min-width: 1200px) {
+    .card-container{
+        display: flex;
+      
+    }
+    .card{
+        margin-top: 0;
+    }
+    }  
