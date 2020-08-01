@@ -55,15 +55,16 @@ nav{
 
 .building-background{
   position: absolute;
- height: 100px;
+ height: 75px;
  right: 0;
- top: 122px;
+ top: 785px;
+
 }
 .building-background2{
   position: absolute;
-  height: 100px;
+  height: 75px;
   left: 0;
-  top: 122px;
+  top: 600px;
 }
 
 /*footer*/
@@ -98,45 +99,59 @@ footer{
       text-decoration:none;
   
   }
-  
-  @media (max-width: 439px){
+  @media (max-width: 319px){
     .building-background{
-      margin-top: 20px;
-      height: 150px;
-      top: 83%;
-      z-index: -1;
+      position: absolute;
+     height: 90px;
+     right: 0;
+     top: 675px;
+     width: 100px;
     
-     }
-     .building-background2{
-      margin-top: 20px;
-      height: 150px;
-      top: 83%;
-      z-index: -1;
-      
-     }
-     .carousel-container{
-      margin-bottom: 160px;
     }
-    
+    .building-background2{
+      position: absolute;
+      height: 90px;
+      left: 0;
+      top: 675px;
+      width: 100px;
+    }
   }
+  @media (min-width: 320px) and (max-width: 439px){
+    .building-background{
+      position: absolute;
+     height: 90px;
+     right: 0;
+     top: 675px;
+     width: 125px;
+    
+    }
+    .building-background2{
+      position: absolute;
+      height: 90px;
+      left: 0;
+      top: 675px;
+      width: 125px;
+    }
+  }
+  
   @media (min-width: 440px) and (max-width: 575px) {
     .building-background{
       margin-top: 20px;
       height: 175px;
-      top: 79%;
+      top: 550px;
       z-index: -1;
     
      }
      .building-background2{
       margin-top: 20px;
       height: 175px;
-      top: 79%;
+      top: 550px;
       z-index: -1;
       
       
      }
      .carousel-container{
-       margin-bottom: 200px;
+       margin-bottom: 130px;
      }
   }
   @media (min-width: 576px) and (max-width: 767px) {  
@@ -147,20 +162,20 @@ footer{
   }
   .building-background{
     margin-top: 20px;
-    height: 300px;
-    top: 90%;
+    height: 225px;
+    top: 422px;
     z-index: -1;
   
    }
    .building-background2{
     margin-top: 20px;
-    height: 300px;
-    top: 90%;
+    height: 225px;
+    top: 422px;
     z-index: -1;
     
    }
    .carousel-container{
-     margin-bottom: 442px;
+    
    }
   
   }
@@ -170,19 +185,19 @@ footer{
     .building-background{
       margin-top: 20px;
       height: 350px;
-      top: 81%;
+      top: 300px;
       z-index: -1;
     
      }
      .building-background2{
       margin-top: 20px;
       height: 350px;
-      top: 81%;
+      top: 300px;
       z-index: -1;
       
      }
      .carousel-container{
-      margin-bottom: 410px;
+   
    }
     }
   
@@ -191,13 +206,13 @@ footer{
     .building-background{
      margin-top: 20px;
      height: 400px;
-     top: 76%;
+      top: 280px;
 
     }
     .building-background2{
       margin-top: 20px;
       height: 400px;
-      top: 76%;
+      top: 280px;
     }
     }
   
@@ -225,6 +240,6 @@ footer{
       
     }
     .carousel-container{
-      margin-bottom: 200px;
+     margin-bottom: 200px;
    }
     }  
