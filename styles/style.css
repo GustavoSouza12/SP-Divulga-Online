@@ -1,70 +1,118 @@
+.green{
+  color: rgb(28, 179, 28);
+}
+
 *{
     margin: 0;
     padding: 0;
 
 }
-@font-face {
-    font-family: 'orange1';
-    src: url('../fonts/orange_juice_2.0-webfont.woff2') format('woff2'),
-         url('../fonts/orange_juice_2.0-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+
+
+body{
+
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: white !important;
+  background: linear-gradient(45deg, #8262d2, #e155b0) !important;
 
 }
-body{
-    height: 100vh;
-   
-}
 body, nav{
-    font-family: orange1;
-    background-color: rgb(240, 239, 236) !important;
-    
+   
+  font-family: 'Times New Roman', Times, serif !important;
+
+}
+
+nav{
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: #0d1331 !important;
+  
+}
+nav ul li a{
+  color: white !important;
+}
+nav .navbar-toggler {
+  background: linear-gradient(45deg, #8262d2, #e155b0) !important;
+}
+
+.carousel-item{
+ 
 }
 main h2{
-    font-family: orange1;
-    font-size: 40px;
+   
+  font-size: 40px;
+  font-weight: 700 !important;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  margin: 30px auto;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #636a99;
+  width: 90%;
+}
+
+main h3{
+  
+    font-size: 22px;
+    font-weight: 700 !important;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    margin: 30px auto;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #0d1331;
+    width: 90%; 
 }
 
 h2 i{
-    color: rgb(255, 196, 0);
+  color: #f3a81e !important;
    
 }
-nav{
-    margin-top: 10px;
-    border-radius: 50px;
-    background-color: rgb(247, 198, 93) !important;
-}
+
 .container{
     
     align-items: center;
     text-align: center;
     justify-content: center;
 }
-.bg-main{
-    background-color: rgb(240, 239, 236);
-}
+
 .carousel-container{
-   max-width: 500px;
+   max-width: 800px;
     
     margin: auto;
-   margin-bottom: 60px;
+   margin-bottom: 50px;
 }
 .carousel-item img{
     height: 400px !important;
+    margin-bottom: 20px;
 }
-
+main .ver-mais{
+  font-size: 25px;
+  color: black !important;
+  text-decoration: none !important;
+  font-weight: 400;
+  letter-spacing: 5px;
+  border: solid 2px black;
+  border-radius: 30px;
+  
+}
+main .ver-mais:hover{
+color: rgb(219, 143, 29) !important;
+}
+.background{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -50px;
+}
 .building-background{
-  position: absolute;
- height: 75px;
- right: 0;
- top: 785px;
-
+ height: 100px;
+  
 }
 .building-background2{
-  position: absolute;
-  height: 75px;
-  left: 0;
-  top: 600px;
+ height: 100px;
 }
 
 /*footer*/
@@ -72,22 +120,19 @@ footer{
    
     width: 100%;
     
-    background-color: rgb(247, 198, 93);
-    color: rgb(255, 255, 255);
+    background-color: #0d1331 !important;
+    color: rgb(252, 252, 252);
     text-align: center;
-    font-family: orange1;
+   
     letter-spacing: 1px;
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    border-top: 2px solid #636a99 !important;
+    border-bottom: 2px solid  #636a99;;
     margin-top: auto;
   }
-  
-  footer{
-    border-top: 2px solid #000000;
-  }
+
   footer a:link{
     text-decoration: none;
-    border-color: #000000;
+    border-color: #e155b0;
   }
   a:visited {
     color:#999999;
@@ -99,122 +144,115 @@ footer{
       text-decoration:none;
   
   }
+
+
   @media (max-width: 319px){
+    .background{
+      
+      justify-content: space-between;
+     
+    }
     .building-background{
-      position: absolute;
-     height: 90px;
-     right: 0;
-     top: 675px;
-     width: 100px;
+     height: 100px;
     
     }
     .building-background2{
-      position: absolute;
-      height: 90px;
-      left: 0;
-      top: 675px;
-      width: 100px;
+      height: 100px;
+
     }
+   
   }
   @media (min-width: 320px) and (max-width: 439px){
     .building-background{
-      position: absolute;
-     height: 90px;
-     right: 0;
-     top: 675px;
-     width: 125px;
-    
-    }
-    .building-background2{
-      position: absolute;
-      height: 90px;
-      left: 0;
-      top: 675px;
-      width: 125px;
-    }
+      height: 120px;
+     
+     }
+     .building-background2{
+       height: 120px;
+ 
+     }
   }
   
   @media (min-width: 440px) and (max-width: 575px) {
-    .building-background{
-      margin-top: 20px;
-      height: 175px;
-      top: 550px;
-      z-index: -1;
+    .background{
+      margin-top: -120;
+    }
     
+    .building-background{
+      height: 200px;
+     
      }
      .building-background2{
-      margin-top: 20px;
-      height: 175px;
-      top: 550px;
-      z-index: -1;
-      
-      
+       height: 200px;
+ 
      }
-     .carousel-container{
-       margin-bottom: 130px;
-     }
+     
+  
   }
   @media (min-width: 576px) and (max-width: 767px) {  
-  .swiper-container {
-    margin: 00px 0;
-    
-    
+    .background{
+      margin-top: -140;
+    }
+    .building-background{
+      height: 270px;
+     
+     }
+     .building-background2{
+       height: 270px;
+ 
+     }
+     main .ver-mais{
+      font-size: 32px;
+     
   }
-  .building-background{
-    margin-top: 20px;
-    height: 225px;
-    top: 422px;
-    z-index: -1;
+
   
-   }
-   .building-background2{
-    margin-top: 20px;
-    height: 225px;
-    top: 422px;
-    z-index: -1;
-    
-   }
-   .carousel-container{
-    
-   }
   
   }
  
 /*Medium devices */
   @media (min-width: 768px) {
-    .building-background{
-      margin-top: 20px;
-      height: 350px;
-      top: 300px;
-      z-index: -1;
-    
-     }
-     .building-background2{
-      margin-top: 20px;
-      height: 350px;
-      top: 300px;
-      z-index: -1;
+    .background{
       
-     }
-     .carousel-container{
-   
-   }
+      justify-content: space-between;
+      margin-top: -80;
+    }
+    main .ver-mais{
+      font-size: 40px;
+     
+  }
+    .building-background{
+      height: 300px;
+    
+    }
+    .building-background2{
+    
+      height: 300px;
+     
+    }
     }
   
 /*Large devices*/ 
   @media (min-width: 992px) {
+    .background{
+      
+      justify-content: space-between;
+      margin-top: -50;
+    }
     .building-background{
-     margin-top: 20px;
-     height: 400px;
-      top: 280px;
-
+      height: 450px;
+    
     }
     .building-background2{
-      margin-top: 20px;
-      height: 400px;
-      top: 280px;
+    
+      height: 450px;
+     
     }
-    }
+    main .ver-mais{
+      font-size: 50px;
+     
+  }
+  }
   
   
 /*Extra large devices*/
@@ -227,19 +265,13 @@ footer{
         margin-top: 0;
     }
     .building-background{
-      position: absolute;
-     height: 500px;
-     right: 0;
-     top: 245px ;
+      height: 500px;
+    
     }
     .building-background2{
-      position: absolute;
+    
       height: 500px;
-      left: 0;
-      top: 245px ;
-      
+     
     }
-    .carousel-container{
-     margin-bottom: 200px;
-   }
+   
     }  
