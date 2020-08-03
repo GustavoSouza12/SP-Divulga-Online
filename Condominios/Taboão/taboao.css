@@ -49,6 +49,19 @@ main h1{
     background-color: #636a99;
     width: 90%;
 }
+main h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700 !important;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    margin: 30px auto;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #636a99;
+    width: 90%;
+}
 .meu-wpp h3{
     font-size: 30px;
     text-align: center;
@@ -83,13 +96,13 @@ nav{
 nav ul li a{
     color: white !important;
 }
-nav ul li a:hover{
-    color: #8262d2 !important;
-  }
 nav .navbar-toggler {
     background: linear-gradient(45deg, #8262d2, #e155b0) !important;
     
 }
+nav ul li a:hover{
+    color: #8262d2 !important;
+  }
 nav .navbar-brand{
     color: white !important;
     font-size: 32px;

@@ -7,3 +7,12 @@
 [0801/063633.801:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
 [0801/063633.843:ERROR:process_info.cc(359)] UncheckedAllocate
 [0802/155856.639:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Gusta\AppData\Local\Microsoft\Edge\User Data\Crashpad\reports\42f1a732-4a0c-4494-8bb1-7c66d47427b4.dmp: O arquivo já está sendo usado por outro processo. (0x20)
+[0803/175750.742:ERROR:process_reader_win.cc(155)] SuspendThread: Acesso negado. (0x5)
+[0803/175750.827:ERROR:exception_snapshot_win.cc(99)] thread ID 4724 not found in process
+[0803/175750.827:ERROR:process_memory_win.cc(73)] ReadMemory at 0x6218ffd9f0 of 16 bytes failed: Somente uma parte de um pedido ReadProcessMemory ou WriteProcessMemory foi concluída. (0x12B)
+[0803/175750.827:ERROR:exception_snapshot_win.cc(210)] EXCEPTION_POINTERS read failed
+[0803/175750.828:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentou-se acessar um processo de saída. (0xc000010a)
+[0803/175950.283:ERROR:minidumpwritedump_with_crashpad_info.cc(435)] Failed to call MiniDumpWriteDump: O arquivo de paginação é muito pequeno para que esta operação seja concluída. (0x800705AF)
+[0803/175950.283:ERROR:minidumpwritedump_with_crashpad_info.cc(592)] Failed to write minidump file
+[0803/175950.283:ERROR:crash_report_exception_handler.cc(132)] TryMiniDumpWriteDumpWithCrashpadInfo failed
+[0803/175950.288:ERROR:process_info.cc(359)] UncheckedAllocate
