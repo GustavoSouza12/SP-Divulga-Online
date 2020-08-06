@@ -51,11 +51,11 @@ nav .navbar-toggler {
 }
 nav .navbar-brand{
   color: white !important;
-  font-size: 32px;
+  font-size: 13px;
   font-family: 'Courier New', Courier, monospace;
 }
-.carousel-item{
- 
+.navbar-toggler-icon, .navbar-toggler{
+  font-size: 10px;
 }
 main h2{
    
@@ -149,7 +149,10 @@ h2 i{
 .building-background2{
  height: 100px;
 }
-/* Carousel arrow */
+.card-body .link-click{
+  text-decoration: none;
+  color: red !important;
+}
 
 
 
@@ -209,6 +212,7 @@ footer{
        height: 120px;
  
      }
+     
   }
   
   @media (min-width: 440px) and (max-width: 575px) {
@@ -224,6 +228,10 @@ footer{
        height: 200px;
  
      }
+     nav .navbar-brand{
+      font-size: 20px;
+  
+    }
      
   
   }
@@ -242,11 +250,16 @@ footer{
      main .ver-mais{
       font-size: 32px;
      
-  }
+  
 
-  
+ 
   
   }
+  nav .navbar-brand{
+    font-size: 27px;
+
+  }
+}
  
 /*Medium devices */
   @media (min-width: 768px) {
@@ -267,6 +280,10 @@ footer{
     
       height: 300px;
      
+    }
+    nav .navbar-brand{
+      font-size: 20px;
+  
     }
     }
   
@@ -290,6 +307,10 @@ footer{
       font-size: 50px;
      
   }
+  nav .navbar-brand{
+    font-size: 20px;
+
+  }
   }
   
   
@@ -311,5 +332,8 @@ footer{
       height: 500px;
      
     }
-   
-    }  
+    nav .navbar-brand{
+      font-size: 20px;
+  
+    }
+  }

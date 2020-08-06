@@ -24,28 +24,20 @@ col-12{
     padding: 0 !important;
 }
 body{
+    
     font-family: Arial, Helvetica, sans-serif !important;
     color: white !important;
     background: linear-gradient(45deg, #8262d2, #e155b0) !important;
+
 }
 body, nav{
-   font-family: 'Times New Roman', Times, serif !important;
+   
+    font-family: 'Times New Roman', Times, serif !important;
+
 }
 main h1{
+   
     font-size: 36px;
-    text-align: center;
-    font-weight: 700 !important;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    margin: 30px auto;
-    border-radius: 30px;
-    padding: 10px;
-    background-color: #636a99;
-    width: 90%;
-}
-main h3 {
-    font-size: 20px;
     text-align: center;
     font-weight: 700 !important;
     color: white;
@@ -79,6 +71,7 @@ h1 i{
     background: -webkit-linear-gradient(#8262d2, #e155b0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+   
 }
 nav{
     margin-top: 10px;
@@ -90,14 +83,21 @@ nav{
 nav ul li a{
     color: white !important;
 }
+nav ul li a:hover{
+    color: #8262d2 !important;
+  }
 nav .navbar-toggler {
     background: linear-gradient(45deg, #8262d2, #e155b0) !important;
+    
 }
 nav .navbar-brand{
     color: white !important;
-    font-size: 32px;
+    font-size: 13px;
     font-family: 'Courier New', Courier, monospace;
 }
+.navbar-toggler-icon, .navbar-toggler{
+    font-size: 10px;
+  }
 /*CONFIGURAÇÃO DESTAQUE CARD */
 .card-destaque, .card-simples{
     margin: 0 auto;
@@ -115,17 +115,20 @@ nav .navbar-brand{
     font-size: 25px;
     margin-top: 5px;
     color: rgb(227, 230, 236);
+    
 }
 .carousel-inner{
     border-radius: 30px;
 }
 .carousel-item img{
     height: 400px !important;
+    
 }
 .card-destaque p, .card-simples p{
     font-size: 23px;
     font-family: 'Courier New', Courier, monospace;
     color: #d1c8e7;
+
 }
 .list-group-item-destaque, .list-group-item-simples{
     background: linear-gradient(45deg, #8262d2, #e155b0) !important;
@@ -210,23 +213,46 @@ footer{
   
   }
 
-  @media (min-width: 576px) {  }
+  @media (min-width: 440px) and (max-width: 575px) {
+   
+    nav .navbar-brand{
+     font-size: 20px;
+ 
+   }
+    
+ 
+ }
+@media (min-width: 576px) and (max-width: 767px) {  
+  
+ nav .navbar-brand{
+   font-size: 27px;
+
+ }
+}
 
 /*Medium devices */
-  @media (min-width: 768px) {  }
+@media (min-width: 768px) {
   
+   nav .navbar-brand{
+     font-size: 20px;
+ 
+   }
+   }
+ 
 /*Large devices*/ 
-  @media (min-width: 992px) {
-   
-    }
-  
+@media (min-width: 992px) {
+
+ nav .navbar-brand{
+   font-size: 20px;
+
+ }
+ }
+ 
+ 
 /*Extra large devices*/
 @media (min-width: 1200px) {
-    .card-container{
-        display: flex;
-      
-    }
-    .card{
-        margin-top: 0;
-    }
-    }  
+   nav .navbar-brand{
+     font-size: 20px;
+ 
+   }
+ }
